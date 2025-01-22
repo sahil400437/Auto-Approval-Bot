@@ -1,4 +1,4 @@
-# Don't Remove Credit @VJ_Botz
+# Credit @
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -12,7 +12,7 @@ class Config:
     # Your Force Subscribe Channel Id Below 
     CHID = int(getenv("CHID", "-1001805846204")) # Make Bot Admin In This Channel
     # Admin Or Owner Id Below
-    SUDO = list(map(int, getenv("SUDO", "").split()))
+    SUDO = list(map(int, getenv("SUDO", "5989980107").split()))
     MONGO_URI = getenv("MONGO_URI", "mongodb+srv://Sahil:<db_password>@cluster0.njg1t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
 cfg = Config()
