@@ -1,6 +1,5 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
+
 
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram import filters, Client, errors, enums
@@ -26,7 +25,7 @@ async def approve(_, m : Message):
     try:
         add_group(m.chat.id)
         await app.approve_chat_join_request(op.id, kk.id)
-        await app.send_message(kk.id, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @VJ_Botz __**".format(m.from_user.mention, m.chat.title))
+        await app.send_message(kk.id, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @Seasonal_Culture __**".format(m.from_user.mention, m.chat.title))
         add_user(kk.id)
     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
